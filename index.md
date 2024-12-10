@@ -15,6 +15,7 @@ sub-files. The sub-files include a clock wizard, VGASync and the file that holds
 <img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/Summary.png">
 <img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/Screenshot 2024-12-10 142510.png">
 <img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/Screenshot 2024-12-05 173950.png">
+<img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/Screenshot 2024-12-10 153546.png">
 
 ## **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
