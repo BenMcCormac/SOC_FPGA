@@ -2,19 +2,20 @@
 layout: home
 title: FPGA VGA Driver Project
 tags: fpga vga verilog
-categories: demo
+categories: final blog
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
-
-I am adding a test sentence here at 13:24 on 03/12/24.
+Welcome to my FPGA VGA project. IIn this blog I explain my project and the steps I took towards the final project.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
+The project is set-up with a design folder, a constraint folder and a simulation folder. Under the design folder is VGATop, this file manages and declares relations and labels of the variables and registers used in its three 
+sub-files. The sub-files include a clock wizard, VGASync and the file that holds all the main logic of the VGA, the CoulourCycle. In ColourCycle I have a simple albeit
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
-### **Template Code**
+<img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/Screenshot143116.png">
+
+## **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
