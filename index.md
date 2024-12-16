@@ -64,5 +64,5 @@ Fortunately I realised in time that the values put into the colour register are 
 
 ## **References**
 
-[1] Unrepo, [online]. Available: [https://www.unrepo.com/verilog/verilog-simulation-and-synthesis-a-detailed-tutorial](https://www.unrepo.com/verilog/verilog-simulation-and-synthesis-a-detailed-tutorial). [Accessed 13/12/2024].
+[1] Unrepo, [online]. Available: [https://www.unrepo.com/verilog/verilog-simulation-and-synthesis-a-detailed-tutorial](https://www.unrepo.com/verilog/verilog-simulation-and-synthesis-a-detailed-tutorial). [Accessed 13/12/2024].            
 [2] Pixilart, [online]. Available: [https://www.pixilart.com/art/scara-new-soundtrack-58308b5297eb195?ft=topic&ft_id=5](https://www.pixilart.com/art/scara-new-soundtrack-58308b5297eb195?ft=topic&ft_id=5). [Accessed 21/11/2024].
