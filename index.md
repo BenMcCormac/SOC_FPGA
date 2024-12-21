@@ -25,19 +25,16 @@ VGA_ColourStripes in particular was very helpful as it demonstrated how to isola
  VGA_ColourCycle was also very useful as it demonstrated the use of counters in verilog. I didn't use this in my final project but something i did use was the particular method of displayin the colour. In this code there is a register/array called colour, this is used the entre 12 bit sequence that serve as the RGB values. This was very handy in my own code to implement a feature i'll talk about later.
 
 ### **Simulation**
-Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
 Simulation is the process of using its titular feature in Vivado to predict or simulate the input/output values of the registers defined in your testbench code. Below I provide an example of a JK Flip Flop testbench code, this code when simulated would provide its ouput diagram
 
 <img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/TestBench.png">
 
 ### **Synthesis**
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 Synthesis is the process of converting the high-level Verilog code into gate-level representations suitable for physical implementation on FPGAs or ASICs. [1]. Additionally, in Vivado after synthesis you can have it generate a hardware schematic of your code. In verilog code is a direct representation of code to hardware which allows it to generate these schematics for us.
 
 <img src="https://raw.githubusercontent.com/BenMcCormac/SOC_FPGA/main/docs/assets/images/SYNTH.png">
 
 ## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
 For my own design I decided to make a piece of pixel art in the confines of the FPGA, but I am not very artistically talented so I borrowed a portion of a pice of art I found online [2]. I recreated the cropping of the image inside the software and then added a wa to use the switches on the chip we were using to have it shift between inverted colours and greyscale. In theory this was quite the easy piece of code to produce and it was, the problem lies within the method length. Pixel art though simplistic in appearance is suppriisingly difficult to keep track of, especially in code, despite mt best efforts to reduce the workload, the finished project was about 2500 lines long, yet still quite feasible.
 
 ### **Code Adaptation**
